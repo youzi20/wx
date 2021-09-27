@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container"
+  style="width: {{windowWidth}}px; height: {{windowHeight-statusBarHeight}}px; margin-top: {{statusBarHeight}}px;">
+  <view class="info">
+    <image src="../../assets/images/logo.jpg"></image>
+    <text>柚子青年。</text>
+  </view>
+
+  <view class="wrapper">
+    <view class="list">
+      <navigator class="item" wx:for="{{list}}" wx:key="text" url="{{item.link}}">
+        <image src=" {{item.image}}"></image>
+        <text>{{item.text}}</text>
+      </navigator>
+    </view>
+  </view>
+</view>

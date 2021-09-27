@@ -1,0 +1,54 @@
+<!--pages/cv/index.wxml-->
+<view class="info">
+    <view class="name">
+        <image src="../../assets/images/logo.jpg"></image>
+        <text>{{info.name}}</text>
+    </view>
+    <text class="job">{{info.job}}</text>
+</view>
+
+<view class="contact">
+    <view class="item" wx:for="{{contact}}" wx:key="text">
+        <image src="{{item.image}}"></image>
+        <text>{{item.text}}</text>
+    </view>
+</view>
+
+<view class="title">个人技能</view>
+<view class="skill">
+    <text class="text" wx:for="{{skill}}" wx:key="index">{{item}}</text>
+</view>
+
+<view class="title">工作与项目</view>
+<view class="work">
+    <view class="item" wx:for="{{work}}" wx:key="index">
+        <view class="work-info">
+            <text>{{item.name}}</text>
+            <text>{{item.time}}</text>
+        </view>
+
+        <view class="box" wx:if="{{item.desc}}">
+            <text class="text">{{item.desc}}</text>
+        </view>
+
+        <view class="box" wx:if="{{item.daily}}">
+            <text class="bold">负责工作：</text>
+
+            <view class="list" wx:for="{{item.daily}}">
+                <text class="text">{{item}}</text>
+            </view>
+        </view>
+        <view class="box" wx:if="{{item.highlight}}">
+            <text class="bold">技术亮点：</text>
+
+            <view class="list" wx:for="{{item.highlight}}">
+                <text class="text">{{item}}</text>
+            </view>
+        </view>
+    </view>
+</view>
+
+<view class="title">自我评价</view>
+<view class="evaluation">
+    <text class="text" wx:for="{{evaluation}}">{{item}}</text>
+</view>
