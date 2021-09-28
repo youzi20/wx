@@ -34,14 +34,14 @@
         <view class="box" wx:if="{{item.daily}}">
             <text class="bold">负责工作：</text>
 
-            <view class="list" wx:for="{{item.daily}}">
+            <view class="list" wx:for="{{item.daily}}" wx:key="index">
                 <text class="text">{{item}}</text>
             </view>
         </view>
         <view class="box" wx:if="{{item.highlight}}">
             <text class="bold">技术亮点：</text>
 
-            <view class="list" wx:for="{{item.highlight}}">
+            <view class="list" wx:for="{{item.highlight}}" wx:key="index">
                 <text class="text">{{item}}</text>
             </view>
         </view>
@@ -50,5 +50,5 @@
 
 <view class="title">自我评价</view>
 <view class="evaluation">
-    <text class="text" wx:for="{{evaluation}}">{{item}}</text>
+    <text class="text" wx:for="{{evaluation}}" wx:key="index">{{item}}</text>
 </view>
