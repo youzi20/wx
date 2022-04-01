@@ -1,1 +1,10 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1632732882586" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2236" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"><defs><style type="text/css"></style></defs><path d="M722 32H302c-49.50000001 0-90 40.50000001-90 90v780c0 49.50000001 40.50000001 90 90 90h420c49.50000001 0 90-40.50000001 90-90V122c0-49.50000001-40.50000001-90-90-90zM392 77h240v30H392V77z m120 855c-33.136875 0-60-26.863125-60-60s26.863125-60 60-60 60 26.863125 60 60-26.863125 60-60 60z m240-180H272V152h480v600z" p-id="2237" fill="#0b2669"></path></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>phone</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="phone">
+            <rect id="矩形" x="0" y="0" width="200" height="200" rx="8"></rect>
+            <path d="M139.625,10 L60.875,10 C51.59375,10 44,17.59375 44,26.875 L44,173.125 C44,182.40625 51.59375,190 60.875,190 L139.625,190 C148.90625,190 156.5,182.40625 156.5,173.125 L156.5,26.875 C156.5,17.59375 148.90625,10 139.625,10 Z M77.75,18.4375 L122.75,18.4375 L122.75,24.0625 L77.75,24.0625 L77.75,18.4375 Z M100.25,178.75 C94.0368359,178.75 89,173.713164 89,167.5 C89,161.286836 94.0368359,156.25 100.25,156.25 C106.463164,156.25 111.5,161.286836 111.5,167.5 C111.5,173.713164 106.463164,178.75 100.25,178.75 Z M145.25,145 L55.25,145 L55.25,32.5 L145.25,32.5 L145.25,145 Z" id="形状" fill="#0B2669" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
